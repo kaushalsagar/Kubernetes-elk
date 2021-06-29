@@ -1,2 +1,5 @@
+docker build -t your-account/kibana-logtrail:v1 .
+docker push your-account/kibana-logtrail:v1
 kubectl create ns kube-logging
 kubectl label nodes <your-node-name> server=logging
+
